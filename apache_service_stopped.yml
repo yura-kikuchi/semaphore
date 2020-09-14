@@ -1,8 +1,0 @@
-- hosts: win
-  become: yes
-
-  tasks:
-    - name: Stop service httpd, if started
-      service:
-        name: httpd
-        state: stopped
